@@ -1,0 +1,42 @@
+body{
+	background: #ecf7fb;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2c818b;
+}
+
+li{
+	float: right;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: "Baloo Paaji";
+}
+
+li a:hover:not(.active){
+	background-color: #ff7673;
+
+}
+
+.active{
+	background-color: #2c818b;
+}
+
+section{
+	/*overflow:auto;*/
+	margin-top: 20px;
+	background-color: #2c818b;
+	padding: 20px;
+}
+.imagenes{
+
+}
